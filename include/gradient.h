@@ -1,6 +1,6 @@
 /**
- * @file gradient.h
- * @brief Module de calcul du gradient d'images en niveaux de gris.
+ *  gradient.h
+ *  Module de calcul du gradient d'images en niveaux de gris.
  *
  * Trois opérateurs sont implémentés :
  *   - Sobel   (noyaux 3×3, pondération centrale)

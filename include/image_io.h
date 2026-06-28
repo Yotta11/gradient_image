@@ -1,6 +1,6 @@
 /**
- * @file image_io.h
- * @brief Module de lecture/écriture d'images PGM (niveaux de gris) et PPM (couleur)
+ *  image_io.h
+ *  Module de lecture/écriture d'images PGM (niveaux de gris) et PPM (couleur)
  *
  * Supporte les formats binaires :
  *   - P5 : PGM binaire (grayscale)
@@ -12,8 +12,7 @@
 
 #include <stdint.h>
 
-/**
- * @brief Image en niveaux de gris (PGM)
+/* Image en niveaux de gris (PGM)
  */
 typedef struct {
     int     width;       /**< Largeur en pixels                    */
@@ -27,7 +26,7 @@ typedef struct {
     int     width;
     int     height;
     int     maxval;
-    uint8_t *data;       /**< Tableau plat [height * width * 3], ordre R G B */
+    uint8_t *data;       
 } ImageRGB;
 
 
@@ -50,4 +49,4 @@ void image_gray_free(ImageGray *img);
 
 void image_rgb_free(ImageRGB *img);
 
-#endif /* IMAGE_IO_H */
+#endif 
