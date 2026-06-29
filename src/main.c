@@ -1,7 +1,4 @@
-/*
- * main.c — Programme principal : calcul du gradient d'images PGM/PPM
- * Opérateurs : Sobel, Prewitt, Roberts
- */
+
 
 #define _POSIX_C_SOURCE 200809L
 

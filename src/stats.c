@@ -1,7 +1,4 @@
-/**
- * @file stats.c
- * @brief Calcul de statistiques sur les images et gradients.
- */
+
 
 #include <stdio.h>
 #include <math.h>
@@ -77,9 +74,6 @@ ImageStats stats_compute_gradient(const GradientResult *gr)
     return st;
 }
 
-/* ------------------------------------------------------------------ */
-/*  Affichage                                                           */
-/* ------------------------------------------------------------------ */
 
 void stats_print(const ImageStats *st, const char *label)
 {

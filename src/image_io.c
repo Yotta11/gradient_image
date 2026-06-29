@@ -13,10 +13,7 @@
 /*  Fonctions auxiliaires internes                                      */
 /* ------------------------------------------------------------------ */
 
-/**
- * @brief Saute les commentaires et espaces dans un entête PNM.
- *        Un commentaire commence par '#' et finit à la fin de ligne.
- */
+
 static void skip_whitespace_and_comments(FILE *fp)
 {
     int c;
@@ -224,9 +221,7 @@ ImageGray *rgb_to_gray(const ImageRGB *rgb)
     return gray;
 }
 
-/* ------------------------------------------------------------------ */
-/*  Libération mémoire                                                  */
-/* ------------------------------------------------------------------ */
+
 
 void image_gray_free(ImageGray *img)
 {
